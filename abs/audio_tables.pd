@@ -1,0 +1,9 @@
+#N canvas 58 259 776 670 10;
+#X obj 279 20 inlet;
+#X obj 258 444 outlet;
+#X obj 26 22 table sonic;
+#X obj 27 49 table design;
+#X obj 31 78 table experience;
+#X msg 347 27 list sonic design experience;
+#X connect 0 0 5 0;
+#X connect 5 0 1 0;
